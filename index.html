@@ -3,10 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catapimbas</title>
+    <title>CATAPIMBAS</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <header class="container">
+        <a href="#" class="btn circle shadow" onclick="btnMenu()"><i class="fas fa-bars"></i></a>
+        <a href="index.html" title="acessar a home">
+            <h1>CATAPIMBAS</h1>
+        </a>
+        <a href="#" class="btn circle shadow pesquisa" title="clique para pesquisar no site">
+            <i class="fas fa-user-circle"></i>
+        </a>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#filmes">Eventos</a></li>
+                <li><a href="#series">Bate-Papo</a></li>
+                <li><a href="#series">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <script>
+        function btnMenu(){
+
+            var menu = document.getElementById("menu");
+
+            if(menu.style.display == "none"){
+                menu.style.display = "block";
+            }else{
+                menu.style.display = "none";
+            }            
+        }
+    </script>
+
     
 </body>
 </html>
