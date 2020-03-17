@@ -83,6 +83,7 @@ header{
     list-style-type: none;
     justify-content: space-between;
     flex-flow: wrap;
+    font-weight: bolder
    
 }
 
@@ -148,6 +149,7 @@ main nav {
 
 .card div {
     padding: 2em;
+    background-color: white;
 }
 
 .container .content h4,p{
@@ -174,3 +176,5 @@ main nav {
     }
 
 }
+
+
